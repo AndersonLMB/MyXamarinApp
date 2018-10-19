@@ -13,5 +13,12 @@ namespace MyXamarinApp
         {
             InitializeComponent();
         }
+
+        private void Button1_Clicked(object sender, EventArgs e)
+        {
+            var text = TextBox1.Text;
+            Button1.Text = String.Format("Hello {0}", text);
+
+        }
     }
 }
