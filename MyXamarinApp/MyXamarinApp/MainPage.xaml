@@ -10,10 +10,10 @@
         <Entry Text="Text your name Here" x:Name="TextBox1">
 
         </Entry>
+        
         <Button  Text="Button" x:Name="Button1" Clicked="Button1_Clicked"></Button>
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label x:Name="OutputLabel"></Label>
+        <WebView x:Name="Wv" Source="https://www.baidu.com" />
     </StackLayout>
 
 </ContentPage>
